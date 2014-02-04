@@ -10,13 +10,15 @@ header {
 }
 
 h1 {
-	font-family: "Gloucester MT";
-	font-stretch: extra-condensed;
+	font-family: "Gloucester MT Extra Condensed";
+	padding : 5px;
+	font-stretch: ;
 	color: #EAD3B1;
 }
 
 a {
 	font-family: "Haettenschweiler";
+	text-decoration: none;
 	font-weight: lighter;
 	color: #EAD3B1;
 }
@@ -39,18 +41,19 @@ nav {
 input {
 	font-family: "Haettenschweiler";
 	color: #EAD3B1;
-	background-color: #631E0C;
+	background-color: #3C1310;
 	/*padding: 0;*/
 	border: none;
 }
 
-a:active, a:hover {
-	color: #888888; 
+a:hover {
+	color: #C7B499; 
 	text-decoration: none;
 }
 
 a:visited {
-	color: #8968CD;
+	color: #F8B458;
+	text_decoration: none;
 }
 
 

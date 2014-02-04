@@ -17,24 +17,32 @@ h1 {
 
 a {
 	font-family: "Haettenschweiler";
-	font-stretch: thin;
+	font-weight: lighter;
 	color: #EAD3B1;
 }
 
 h2 {
 	font-family: "GeoSansLight";
-	font-style: medium-italic;
+	font-style: italic;
 	color: #EAD3B1;
 }
 
 p{
 	font-family: "Hoefler Text";
 	color: #EAD3B1;
+	font-size: 0.4rem;
 }
 
 nav {
 }
 
+input {
+	font-family: "Haettenschweiler";
+	color: #EAD3B1;
+	background-color: #631E0C;
+	/*padding: 0;*/
+	border: none;
+}
 
 a:active, a:hover {
 	color: #888888; 

@@ -1,0 +1,53 @@
+body {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 12px; 
+	color: #EAD3B1;
+	background-color: #631E0C;
+}
+
+header {
+	background-color: #3C1310;
+}
+
+h1 {
+	font-family: "Gloucester MT";
+	font-stretch: extra-condensed;
+	color: #EAD3B1;
+}
+
+a {
+	font-family: "Haettenschweiler";
+	color: #EAD3B1;
+}
+
+h2 {
+	font-family: "Gloucester MT";
+	font-style: medium-italic;
+	color: #EAD3B1;
+}
+
+p{
+	font-family: "Hoefler Text";
+	color: #EAD3B1;
+}
+
+nav {
+}
+
+
+a:active, a:hover {
+	color: #888888; 
+	text-decoration: none;
+}
+
+a:visited {
+	color: #8968CD;
+}
+
+
+
+
+
+
+
+

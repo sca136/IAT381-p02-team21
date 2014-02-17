@@ -11,11 +11,6 @@ header {
 
 
 
-
-
-
-
-
 nav a, nav a:visited {
 	display: inline-block;
 	background-color: #4d3f2a;
@@ -34,26 +29,16 @@ nav a:hover {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 h1 {
 	font-family: "Gloucester MT Extra Condensed";
 	padding : 5px;
 	font-stretch: ;
 	color: #EAD3B1;
+	text-align: center;
 }
 
 a {
-	font-family: "Haettenschweiler";
+	font-family: "Andale Mono";
 	text-decoration: none;
 	font-weight: lighter;
 	color: #EAD3B1;
@@ -75,7 +60,7 @@ nav {
 }
 
 input {
-	font-family: "Haettenschweiler";
+	font-family: "Andale Mono";
 	color: #EAD3B1;
 	background-color: #3C1310;
 	/*padding: 0;*/
@@ -93,9 +78,24 @@ a:visited {
 }
 
 
+h1 a {
+	font-family: "Trajan Pro";
+}
 
 
 
+.headertop{
+	height: 33.3333%;
+	width: 100%;
+}
+.headermid{
+	height: 33.3333%;
+	width: 100%;
+}
+.headerbot{
+	height: 33.3333%;
+	width: 100%;
+}
 
 
 

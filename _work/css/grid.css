@@ -7,11 +7,6 @@
 	text-align: center;
 }
 
-/*class starts with period */
-.col-1of2 {
-	width: 50%; /* how wide is the column*/
-}
-
 .grid:after { /*after our class of grid, we want it to do certain things */
 	content: "";
 	display:block; /*inject block that clears the float*/
@@ -24,13 +19,6 @@
 	box-sizing: border-box;
 }
 
-
-@media (max-width: 800px) { /*if width gets too little I think, the puppies will drop down below*/  
-	.col-1of2 {
-		width: 100%;
-	}
-}
-
 .col-1of3{
 	width:20%;
 }
@@ -39,4 +27,23 @@
 	.col-1of3{
 		width:100%;
 	}
+}
+
+header {
+	max-height: 50px;
+	padding = 0;
+	margin = 0;
+}
+
+.headertop{
+	height: 50%;
+	width: 100%;
+}
+.headermid{
+	height: 10%;
+	width: 100%;
+}
+.headerbot{
+	height: 10%;
+	width: 100%;
 }

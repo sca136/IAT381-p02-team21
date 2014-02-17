@@ -30,20 +30,26 @@
 }
 
 header {
-	max-height: 50px;
-	padding = 0;
-	margin = 0;
+	padding : 0px;
+	margin : 0px;
+	border: 0px none;
+	position: fixed;
+	width: 100%;
 }
 
 .headertop{
-	height: 50%;
+	height : 33px;
 	width: 100%;
+	padding : 0px;
+	margin : 0px;
 }
 .headermid{
-	height: 10%;
+	height : 33px;
 	width: 100%;
+	vertical-align: bottom;
 }
 .headerbot{
-	height: 10%;
-	width: 100%;
+	margin: auto;
+	height : 33px;
+	width: 95%;
 }

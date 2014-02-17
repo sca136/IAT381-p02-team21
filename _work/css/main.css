@@ -3,6 +3,9 @@ body {
 	font-size: 10px;
 	color: #EAD3B1;
 	background-color: #631E0C;
+	padding : 0px;
+	margin : 0px;
+	border: 0px none;
 }
 
 header {
@@ -31,7 +34,8 @@ nav a:hover {
 
 h1 {
 	font-family: "Gloucester MT Extra Condensed";
-	padding : 5px;
+	padding : 0px;
+	margin : 0px;
 	font-stretch: ;
 	color: #EAD3B1;
 	text-align: center;
@@ -84,18 +88,6 @@ h1 a {
 
 
 
-.headertop{
-	height: 33.3333%;
-	width: 100%;
-}
-.headermid{
-	height: 33.3333%;
-	width: 100%;
-}
-.headerbot{
-	height: 33.3333%;
-	width: 100%;
-}
 
 
 

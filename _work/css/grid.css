@@ -21,6 +21,7 @@
 
 .col-1of3{
 	width:20%;
+	height: 50px;
 }
 
 @media (max-width:200px) {

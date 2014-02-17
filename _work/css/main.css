@@ -18,7 +18,7 @@ nav a, nav a:visited {
 	display: inline-block;
 	background-color: #4d3f2a;
 	color: #FFFFFF;
-	padding: 0.1rem 1.2rem;
+	padding: 0.3rem 1.2rem;
 	text-decoration: none;
 	width:100%;
 }
@@ -36,7 +36,6 @@ h1 {
 	font-family: "Gloucester MT Extra Condensed";
 	padding : 0px;
 	margin : 0px;
-	font-stretch: ;
 	color: #EAD3B1;
 	text-align: center;
 }
@@ -84,6 +83,7 @@ a:visited {
 
 h1 a {
 	font-family: "Trajan Pro";
+	padding : 0px;
 }
 
 

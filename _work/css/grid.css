@@ -33,23 +33,20 @@ header {
 	padding : 0px;
 	margin : 0px;
 	border: 0px none;
-	position: fixed;
 	width: 100%;
 }
 
 .headertop{
-	height : 33px;
+	min-height: 15px;
 	width: 100%;
 	padding : 0px;
 	margin : 0px;
+	clear:both;
 }
 .headermid{
-	height : 33px;
 	width: 100%;
-	vertical-align: bottom;
 }
 .headerbot{
 	margin: auto;
-	height : 33px;
 	width: 95%;
 }

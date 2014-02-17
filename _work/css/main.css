@@ -9,6 +9,42 @@ header {
 	background-color: #3C1310;
 }
 
+
+
+
+
+
+
+
+nav a, nav a:visited {
+	display: inline-block;
+	background-color: #4d3f2a;
+	color: #FFFFFF;
+	padding: 0.1rem 1.2rem;
+	text-decoration: none;
+	width:100%;
+}
+
+nav a.even {
+	background-color: #ac9068;
+}
+
+nav a:hover {
+	color: #888888;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 h1 {
 	font-family: "Gloucester MT Extra Condensed";
 	padding : 5px;

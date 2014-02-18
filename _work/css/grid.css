@@ -7,6 +7,20 @@
 	text-align: center;
 }
 
+/* ---------------------------------------------------------- */
+.col-1of4{
+	padding-left: 3%;
+	padding-right: 3%;
+	width: 60%;
+}
+
+.col-1of5{
+	width: 20%;
+	padding-right: 3%;
+}
+
+/* ---------------------------------------------------------- */
+
 .grid:after { /*after our class of grid, we want it to do certain things */
 	content: "";
 	display:block; /*inject block that clears the float*/
@@ -19,15 +33,27 @@
 	box-sizing: border-box;
 }
 
+@media (max-width: 300px) {
+	.col-1of4 {
+		width: 100%;
+	}
+}
+
 .col-1of3{
 	width:20%;
 }
+
+
 
 @media (max-width:300px) {
 	.col-1of3{
 		width:100%;
 	}
 }
+
+
+
+
 
 header {
 	padding : 0px;
@@ -53,11 +79,15 @@ header {
 
 .content {
 	width: 97%;
+	min-height: 50%;
 	padding : 0px;
 	margin : auto;
+	clear:both;
 }
 
 footer {
+	bottom:0;
+	position:fixed;
 	padding : 0px;
 	margin : 0px;
 	border: 0px none;
@@ -74,6 +104,8 @@ footer {
 }
 .footerbot{
 }
+
+
 
 
 

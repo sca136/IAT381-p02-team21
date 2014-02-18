@@ -23,7 +23,7 @@
 	width:20%;
 }
 
-@media (max-width:200px) {
+@media (max-width:300px) {
 	.col-1of3{
 		width:100%;
 	}
@@ -37,7 +37,7 @@ header {
 }
 
 .headertop{
-	min-height: 15px;
+	min-height: 13px;
 	width: 100%;
 	padding : 0px;
 	margin : 0px;

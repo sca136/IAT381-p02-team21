@@ -11,7 +11,9 @@ body {
 header {
 	background-color: #3C1310;
 }
-
+footer {
+	background-color: #3C1310;
+}
 
 
 nav a, nav a:visited {
@@ -25,7 +27,7 @@ nav a, nav a:visited {
 }
 
 nav a.active {
-	background-color: #AB8F68;
+	background-color: #CEA97C;
 }
 
 nav a:hover {

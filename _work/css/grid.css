@@ -48,5 +48,40 @@ header {
 }
 .headerbot{
 	margin: auto;
-	width: 95%;
+	width: 97%;
 }
+
+.content {
+	width: 97%;
+	padding : 0px;
+	margin : auto;
+}
+
+footer {
+	padding : 0px;
+	margin : 0px;
+	border: 0px none;
+	width: 100%;
+	min-height: 20px;
+}
+.footertop{
+	background-color: #CEA97C;
+	min-height: 10px;
+	width: 97%;
+	padding : 0px;
+	margin : auto;
+	clear:both;
+}
+.footerbot{
+}
+
+
+
+
+
+
+
+
+
+
+

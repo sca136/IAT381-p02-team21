@@ -3,7 +3,7 @@
 /* You can put anything, and it will apply style in the curly brackets */
 [class*='col-'] {
 	float: left;
-	padding: 0;
+	padding: 0px;
 	text-align: center;
 }
 
@@ -94,18 +94,26 @@ footer {
 	width: 100%;
 	min-height: 20px;
 }
-.footertop{
-	background-color: #CEA97C;
+.footertopleft{
+	background-color: #3C1310;
 	min-height: 10px;
-	width: 97%;
+	width: 1.5%;
 	padding : 0px;
-	margin : auto;
-	clear:both;
+	float: left;
+}
+.footertopright{
+	background-color: #3C1310;
+	min-height: 10px;
+	width: 1.5%;
+	padding : 0px;
+	float:right;
 }
 .footerbot{
+	background-color: #3C1310;
+	clear:both;
+	width:100%;
+	min-height: 10px;
 }
-
-
 
 
 

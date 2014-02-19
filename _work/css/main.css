@@ -12,7 +12,6 @@ header {
 	background-color: #3C1310;
 }
 footer {
-	background-color: #3C1310;
 }
 
 
@@ -94,13 +93,14 @@ h1 a {
 	color: #000000;
 }
 
-article {
+.mainbox {
 	text-align:left;
 	height: 50%;
 	margin: 1rem 0;
 	padding: 1rem;
 	border: 1px solid blue;
 }
+
 
 
 

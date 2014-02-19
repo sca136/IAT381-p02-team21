@@ -1,0 +1,104 @@
+body {
+	/*font-family: Arial, Verdana, sans-serif;*/
+	font-size: 10px;
+	color: #EAD3B1;
+	background-color: #CEA97C;
+	padding : 0px;
+	margin : 0px;
+	border: 0px none;
+}
+
+header {
+	background-color: #3C1310;
+}
+footer {
+	background-color: #3C1310;
+}
+
+
+nav a, nav a:visited {
+	display: inline-block;
+	background-color: #8A5D3B;
+	color: #000000;
+	padding: 0.25rem 1.2rem;
+	font-size : 0.8em;
+	text-decoration: none;
+	width:100%;
+}
+
+nav a.active {
+	background-color: #CEA97C;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+}
+
+
+h1 {
+	font-family: "Gloucester MT Extra Condensed";
+	padding : 0px;
+	margin : 0px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+a {
+	font-family: "Andale Mono";
+	text-decoration: none;
+	font-weight: lighter;
+	color: #EAD3B1;
+}
+
+h2 {
+	font-family: "GeoSansLight";
+	font-style: italic;
+	color: #EAD3B1;
+}
+
+p{
+	font-family: "Hoefler Text";
+	color: #EAD3B1;
+	font-size: 0.4rem;
+}
+
+nav {
+}
+
+input {
+	font-family: "Andale Mono";
+	color: #EAD3B1;
+	background-color: #3C1310;
+	/*padding: 0;*/
+	border: none;
+}
+
+a:hover {
+	color: #C7B499; 
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+
+h1 a {
+	font-family: "Trajan Pro";
+	padding : 0px;
+	color: #FFFFFF;
+}
+
+article {
+	text-align:left;
+	height: 30%;
+	margin: 1rem 0;
+	padding: 1rem;
+	border: 1px solid blue;
+}
+
+/*---------------------------------*/
+.col-browse1of2 {
+	padding-left: 3%;
+	width: 30%;
+}

@@ -95,10 +95,15 @@ h1 a {
 
 .mainbox {
 	text-align:left;
-	height: 50%;
+	min-height: 50%;
 	margin: 1rem 0;
 	padding: 1rem;
 	border: 1px solid blue;
+}
+
+.mainboximage {
+	display: inline-block;
+	padding: 2em, 1em;
 }
 
 

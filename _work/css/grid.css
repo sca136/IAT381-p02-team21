@@ -19,6 +19,12 @@
 	padding-right: 3%;
 }
 
+.mainboxproduct{
+	padding-bottom: 4%;
+}
+
+
+
 /* ---------------------------------------------------------- */
 
 .grid:after { /*after our class of grid, we want it to do certain things */
@@ -35,6 +41,12 @@
 
 @media (max-width: 300px) {
 	.col-1of4 {
+		width: 100%;
+	}
+}
+
+@media (max-width: 15%) {
+	.mainboximage{
 		width: 100%;
 	}
 }
@@ -114,6 +126,8 @@ footer {
 	width:100%;
 	min-height: 10px;
 }
+
+
 
 
 

@@ -1,11 +1,14 @@
 body {
 	/*font-family: Arial, Verdana, sans-serif;*/
-	font-size: 10px;
+	font-size: 30px;
 	color: #EAD3B1;
 	background-color: #CEA97C;
 	padding : 0px;
 	margin : 0px;
 	border: 0px none;
+}
+.maintitle {
+	font-size: 50px;
 }
 
 header {
@@ -19,8 +22,8 @@ nav a, nav a:visited {
 	display: inline-block;
 	background-color: #8A5D3B;
 	color: #000000;
-	padding: 0.25rem 1.2rem;
-	font-size : 0.8em;
+	padding: 0.75rem 3.6rem;
+	font-size : 1.0em;
 	text-decoration: none;
 	width:100%;
 }
@@ -53,12 +56,15 @@ h2 {
 	font-family: "GeoSansLight";
 	font-style: italic;
 	color: #EAD3B1;
+	text-align:left;
+	padding : 0;
+	margin : 0;
 }
 
 p{
 	font-family: "Hoefler Text";
 	color: #EAD3B1;
-	font-size: 0.4rem;
+	font-size: 1rem;
 }
 
 nav {
@@ -94,18 +100,31 @@ h1 a {
 }
 
 .mainbox {
-	text-align:left;
+	text-align:center;
 	min-height: 50%;
-	margin: 1rem 0;
-	padding: 1rem;
-	border: 1px solid blue;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	padding-top: 0;
+	padding-bottom : 1em;
+	padding-left: auto;
+	padding-right: auto;
+	border: 3px solid blue;
 }
 
 .mainboximage {
 	display: inline-block;
-	padding: 2em, 1em;
+	padding: 3em, 2em;
+	margin: 0.2em;
 }
 
+figcaption{
+	font-size: 15px;
+	text-align:center;
+}
+
+.col-1of3{
+	font-size: 20px;
+}
 
 
 

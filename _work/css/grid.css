@@ -12,6 +12,7 @@
 	display:inline-block;
 	padding-left: 3%;
 	padding-right: 3%;
+	margin-top: 0px;
 }
 
 .col-1of5{
@@ -32,6 +33,7 @@
 }
 #populararticles{
 	width:75%;
+	margin-top: -70px;
 }
 
 
@@ -58,10 +60,12 @@
 	}
 	#news {
 		clear:both;
-		width:100%
+		width:100%;
+		margin-top: -40px;
 	}
 	#populararticles{
 		width:100%;
+		margin-top: -50px;
 	}
 
 }

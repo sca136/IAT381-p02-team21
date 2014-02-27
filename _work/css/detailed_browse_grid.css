@@ -20,16 +20,17 @@
 	padding-right: 3%;
 }
 
-.mainboxproduct{
-	padding-bottom: 4%;
+.detailedproduct{
+	margin-bottom: 1%;
 }
 
-#homeproducts{
+#detailproducts{
 	width: 75%;
 }
 #news {
 	width:25%;
 	float:right;
+	padding-left: 0;
 }
 #populararticles{
 	width:75%;
@@ -55,7 +56,7 @@
 	.col-1of4 {
 		width: 100%;
 	}
-	#homeproducts{
+	#detailproducts{
 		width: 100%;
 	}
 	#news {
@@ -70,12 +71,6 @@
 
 }
 
-@media (max-width: 15%) {
-	.mainboximage{
-		width: 100%;
-	}
-}
-
 .col-1of3{
 	width:20%;
 }
@@ -85,6 +80,9 @@
 @media (max-width:650px) {
 	.col-1of3{
 		width:100%;
+	}
+	.mainbox{
+		border :0px;
 	}
 }
 
@@ -150,22 +148,47 @@ footer {
 	min-height: 10px;
 }
 
-.homebeardtitle {
-	width : 100%;
-	margin-left: 5%;
-}
-
-.homeproducttitle {
-	width : 100%;
-	margin-left: 5%;
+.categorytitle{
+	margin-left: 3%;
 }
 
 
+.productsection{
+	/*overflow:auto;
+	text-align:center;*/
+	min-height: 135px;
+}
+
+.productimages{
+	margin-left: 0;
+	width: 25%;
+	display:inline-block;
+	vertical-align: top;
+}
+
+.1{
+	text-align:center;
+}
+.2{
+	text-align:center;
+}
 
 
+.productdescription{
+	display:inline-block;
+	vertical-align: top;
+	text-align:left;
+	width:50%;
+	margin-top : -3%;
 
-
-
+}
+.productprice{
+	display:inline-block;
+	vertical-align: top;
+	text-align:left;
+	width:20%;
+	margin-top : -3%;
+}
 
 
 

@@ -1,0 +1,180 @@
+body {
+	/*font-family: Arial, Verdana, sans-serif;*/
+	font-size: 30px;
+	color: #EAD3B1;
+	background-color: #CEA97C;
+	padding : 0px;
+	margin : 0px;
+	border: 0px none;
+}
+
+.maintitle {
+	font-size: 50px;
+}
+
+header {
+	background-color: #3C1310;
+}
+
+.col-1of3{
+	font-size: 20px;
+}
+
+footer {
+}
+
+
+nav a, nav a:visited {
+	display: inline-block;
+	background-color: #8A5D3B;
+	color: #000000;
+	padding: 0.75rem 3.6rem;
+	font-size : 1.0em;
+	text-decoration: none;
+	width:100%;
+}
+
+nav a.active {
+	background-color: #CEA97C;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+}
+
+
+h1 {
+	font-family: "Gloucester MT Extra Condensed";
+	padding : 0px;
+	margin : 0px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+a {
+	font-family: "Andale Mono";
+	text-decoration: none;
+	font-weight: lighter;
+	color: #EAD3B1;
+}
+
+h2 {
+	font-family: "GeoSansLight";
+	font-style: italic;
+	color: #EAD3B1;
+}
+
+p{
+	font-family: "Hoefler Text";
+	color: #EAD3B1;
+	font-size: 0.8rem;
+	margin : 0px;
+}
+
+nav {
+}
+
+
+
+input {
+	font-family: "Andale Mono";
+	color: #EAD3B1;
+	background-color: #3C1310;
+	/*padding: 0;*/
+	border: none;
+}
+
+a:hover {
+	color: #C7B499; 
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+
+h1 a {
+	font-family: "Trajan Pro";
+	padding : 0px;
+	color: #FFFFFF;
+}
+
+
+.browsebox {
+	/*
+	text-align:left;
+	min-height: 30%;
+	max-height: 50%;
+	margin-top: 3rem;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
+	margin-bottom: 0.6rem;
+	padding: 0px;
+	border: 3px solid blue;
+	*/
+
+	text-align:center;
+	min-height: 40%;
+	margin-top: 3rem;
+	margin-bottom: 0.6rem;
+	padding-top: 0;
+	padding-bottom : 1em;
+	padding-left: auto;
+	padding-right: auto;
+	border: 3px solid;
+	border-color: rgba(0, 0, 0, 0.2);
+}
+
+.col-browse1of2 {
+	padding-left: 3%;
+	width: 70%;
+}
+
+.confirmimage {
+	margin-top:1rem;
+	margin-bottom:1rem;
+}
+
+.completedimage1 {
+	float:left;
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.completedimage1cap {
+	margin-top:25px;
+	margin-left:25px;
+	text-align:left;
+}
+
+.confirmparagraph {
+	text-align:left;
+}
+
+.newsimage1{
+	float:left;
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.newsimage1cap{
+	margin-top:25px;
+	color: #FFFFFF;
+	text-align:left;
+}
+
+.returnbutton {
+	font-size:100px;
+	text-align: center;
+}
+
+textarea {
+	font-family: "Andale Mono";
+	color: #3C1310;
+	background-color: #EAD3B1;
+
+}

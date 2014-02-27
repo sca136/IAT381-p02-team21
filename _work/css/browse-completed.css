@@ -154,18 +154,6 @@ h1 a {
 	text-align:left;
 }
 
-.newsimage1{
-	float:left;
-	margin-top: 0px;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-bottom: 10px;
-}
-.newsimage1cap{
-	margin-top:25px;
-	color: #FFFFFF;
-	text-align:left;
-}
 
 .returnbutton {
 	font-size:100px;
@@ -177,4 +165,9 @@ textarea {
 	color: #3C1310;
 	background-color: #EAD3B1;
 
+}
+
+
+.clearer{
+	clear:both;
 }

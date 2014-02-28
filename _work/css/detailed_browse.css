@@ -119,8 +119,9 @@ h1 a {
 	padding-bottom : 1em;
 	padding-left: auto;
 	padding-right: auto;
-	border: 3px solid;
+	/*border: 3px solid;*/
 	border-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0.1);
 }
 
 #news .mainbox{
@@ -188,5 +189,13 @@ form {
 
 .productimages{
 	font-family: "GeoSansLight";
+}
+
+.productsection{
+	padding-top: 1rem;
+}
+
+.productsection:hover {
+	background-color: rgba(0, 0, 0, 0.2);
 }
 

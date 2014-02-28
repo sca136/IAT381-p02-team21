@@ -65,10 +65,11 @@ h2 {
 }
 
 p{
-	font-family: "Hoefler Text";
-	color: #EAD3B1;
-	font-size: 0.8rem;
+	font-family: "GeoSansLight";
+	color: rgba(0,0,0,0.6);
+	font-size: 20px;
 	margin : 0px;
+	font-weight: bold;
 }
 
 nav {
@@ -126,8 +127,11 @@ h1 a {
 	padding-bottom : 1em;
 	padding-left: auto;
 	padding-right: auto;
+	background-color: rgba(0,0,0, 0.2);
+	/*
 	border: 3px solid;
 	border-color: rgba(0, 0, 0, 0.2);
+	*/
 }
 
 
@@ -137,7 +141,7 @@ h1 a {
 	width: 30%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 	.col-browse1of2 {
 		width: 100%;
 	}

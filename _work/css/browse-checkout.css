@@ -110,14 +110,26 @@ h1 a {
 }
 
 .purchasenumber {
-	margin-top: auto;
-	margin-bottom: auto;
+	padding-top: 25px;
+	vertical-align: top;
 }
 
 .purchasetext {
-	font-size: 40px;
+	display: inline-block;
+	font-family: "GeoSansLight";
+	color: #EAD3B1;
+	margin : 0px;
+	padding-top: 70px;
+	vertical-align: top;
+	font-size: 30px;
 }
 
+@media (max-width: 1045px) {
+	.purchasetext {
+		padding-top: 0px;
+	}
+
+}
 .removetext {
 	font-size: 20px;
 	text-align:right;
@@ -147,7 +159,7 @@ h1 a {
 }
 
 #yourpurchase {
-	width: 60%;
+	width: 50%;
 }
 
 #checkoutform {

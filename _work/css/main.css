@@ -116,12 +116,16 @@ h1 a {
 	*/
 }
 .forborders{
-	border: 3px solid;
-	border-color: rgba(0, 0, 0, 0.2);
+	/*border: 3px solid;*/
+	margin-top: 2rem;
+	border-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba(0, 0, 0, 0.1);
 }
 #news .mainbox{
-	border: 3px solid;
-	border-color: rgba(0, 0, 0, 0.2);
+	border: 3px;
+	border-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba(0, 0, 0, 0.1);
+	padding-top: 1rem;
 }
 
 .mainboximage {
@@ -168,6 +172,13 @@ figcaption{
 	clear:both;
 	width:100%;
 }
+
+.populararticle{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
 .popularimage{
 	margin: 0px;
     max-width:600px;

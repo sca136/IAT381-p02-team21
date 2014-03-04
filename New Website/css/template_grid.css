@@ -180,6 +180,10 @@ footer {
 	width: 83.33333%;
 }
 
+.bgcolor{
+	overflow: hidden;
+}
+
 
 /* ---------------------------------------------------------- CONTENT */
 .headerbox{

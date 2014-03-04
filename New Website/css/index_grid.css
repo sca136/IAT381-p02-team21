@@ -13,10 +13,6 @@
 	clear: both;  /*clear the floats*/
 }
 
-* { 
-  margin: 0; 
-  padding: 0; 
-}
 
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
@@ -171,7 +167,7 @@ footer {
 	display:block;
 	float:left;
 	min-width: 66.667px;
-	height: 100%;
+	min-height: 100%;
 	width: 16.66667%;
 	margin: 0;
 	padding: 0;
@@ -181,18 +177,22 @@ footer {
 .contentbox{
 	display:block;
 	float:left;
-	height: 100%;
+	min-height: 100%;
 	width: 83.33333%;
 }
 
+.bgcolor{
+	overflow: hidden;
+}
 
 /* ---------------------------------------------------------- CONTENT */
 
 
 .headerbox{
 	float: left;
-	overflow: hidden;
+	overflow: visible;
 	width: 100%;
+	max-width: 80%;
 	margin-top: 50px;
 	margin-left: 40px;
 }
@@ -201,12 +201,24 @@ footer {
 	overflow: hidden;
 	float: left;
 	margin-left: 40px;
+	width: auto;
+	min-width: 350px;
+}
+
+.beardtitle4of4box{
+	overflow: hidden;
+	width: 50%;
+	margin-left: 40px;
 }
 
 .beardtile4of4{
+	width: auto;
 	overflow: hidden;
 	float:left;
+	margin-left: 0;
+	min-width: 350px;
 }
+
 
 .beardimages1{
 	position: relative;
@@ -227,9 +239,27 @@ footer {
 	padding-right: 5px;
 }
 
+.bulletinboard{
+	margin-left: 40px;
+	margin-bottom: 50px;
+}
 
-.firstgroup{
+.bulletinimage{
+	margin-right: 10px;
+}
+
+.bulletinlabel{
+	position: absolute;
+	width: 340px;
+	text-align: right;
+	background-color: rgba(196,154,108, 0.6);
+	z-index: 100;
+	padding-right: 5px;
+}
+
+.labelgroup{
 	float:left;
+	margin-bottom: 10px;
 }
 
 
@@ -316,3 +346,25 @@ footer {
 }
 
 
+
+
+@media (max-width: 903px){
+	.beardtile4of4box{
+	margin-left: 40px;
+	}
+}
+
+@media (max-width: 500px){
+	.headerbox{
+		margin-left: 20px;
+	}
+	.beardtile2of4{
+		margin-left: 20px;
+	}
+	.beardtile4of4box{
+	margin-left: 20px;
+	}
+	.bulletinimages{
+		margin-left: -20px;
+	}
+}

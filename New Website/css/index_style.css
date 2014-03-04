@@ -90,6 +90,9 @@ h1 {
 	background-color: #EEE3D4;
 }
 
+.bgcolor{
+	background-color: #EEE3D4;
+}
 
 /*  CONTENTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT STYYYYLESSSS */
 
@@ -102,6 +105,12 @@ h1 {
 }
 
 .beardlabel{
+	font-family: "GeoSansLight";
+	color: rgba( 255,255,255, 0.8);
+	font-weight: lighter;
+}
+
+.bulletinlabel{
 	font-family: "GeoSansLight";
 	color: rgba( 255,255,255, 0.8);
 	font-weight: lighter;

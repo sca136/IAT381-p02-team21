@@ -1,0 +1,279 @@
+/* grid.css; defining grids for my site */
+
+/* You can put anything, and it will apply style in the curly brackets */
+[class*='col-'] {
+	float: left;
+	padding: 0px;
+	text-align: center;
+}
+
+.grid:after { /*after our class of grid, we want it to do certain things */
+	content: "";
+	display:block; /*inject block that clears the float*/
+	clear: both;  /*clear the floats*/
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/* ---------------------------------------------------------- HEADER */
+
+.headercontainer{
+	overflow:hidden;
+	width: 100%;
+}
+
+.header1of3{
+	display:block;
+	float:left;
+	min-height: 120px;
+	max-height: 120px;
+	min-width: 66.667px;
+	width: 16.66667%;
+	margin: 0;
+	padding: 0;
+	border-right: 5px solid #BCA99A;
+}
+
+.header2of3{
+	display:block;
+	float:left;
+	min-height: 120px;
+	max-height: 120px;
+	width: 73.33333%;
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+}
+
+.header3of3{
+	display:block;
+	float:left;
+	min-height: 120px;
+	max-height: 120px;
+	min-width: 40px;
+	width: 10%;
+	margin: 0;
+	padding: 0;
+}
+
+.headercontent{
+	float:right;
+	width: 500px;
+	min-height: 120px;
+	max-height: 120px;
+}
+
+
+.headertitle{
+	/*display: table-cell;*/
+	position:relative;
+	width: 100%;
+	height: 60px;
+}
+#mainname{
+	position:absolute;
+	bottom: 0;
+	margin-bottom: 10px;
+}
+
+.headermenu{
+	width: 100%;
+	height: 60px;
+}
+
+.headertab{
+	float: left;
+	text-align: center;
+	width: 25%;
+	height: 100%;
+	padding-top : 20px;
+}
+
+/* ---------------------------------------------------------- HEADER END */
+
+
+/* ---------------------------------------------------------- FOOTER */
+footer {
+	/*
+   position:absolute;
+   bottom:0;
+   /**/
+    clear: both;
+    position: relative;
+    z-index: 10;
+   width: 100%;
+   height: 60px;
+}
+
+.footer1of2{
+	display:block;
+	float:left;
+	min-height: 60px;
+	max-height: 60px;
+	min-width: 66.667px;
+	width: 16.66667%;
+	margin: 0;
+	padding: 0;
+	border-right: 5px solid #BCA99A;
+}
+
+.footer2of2{
+	display:block;
+	float:left;
+	min-height: 60px;
+	max-height: 60px;
+	width: 83.33333%;
+	margin: 0;
+	padding: 0;
+	overflow:hidden;	
+}
+
+.footerlink{
+	float: left;
+	height: 100%;
+	margin-top: 20px;
+}
+
+
+.footerlink a{
+	font-size: 15px;
+}
+.footerlink a:hover{
+	color: #FFFFFF;
+}
+
+.firstfooter{
+	margin-left: 20px;
+}
+
+.footerspacing{
+	font-size: 25px;
+	color: #BCA99A;
+	margin-top: -5px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* ---------------------------------------------------------- FOOTER END */
+
+
+.contentborder{
+	display:block;
+	float:left;
+	min-width: 66.667px;
+	height: 100%;
+	width: 16.66667%;
+	margin: 0;
+	padding: 0;
+	border-right: 5px solid #EBE5DD;
+}
+
+.contentbox{
+	display:block;
+	float:left;
+	height: 100%;
+	width: 83.33333%;
+}
+
+
+/* ---------------------------------------------------------- CONTENT */
+.headerbox{
+	width: 100%;
+	margin-top: 50px;
+	margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------- @MEDIA STUFF TILL END */
+
+@media (max-width: 685px) {
+	.footer1of2{
+		min-width: 0px;
+		width: 0px;
+		border: none;
+	}
+	.footer2of2{
+		width: 100%;
+	}
+
+	.header1of3{
+		min-width: 0px;
+		width: 0px;
+		border: none;
+	}
+
+	.header3of3{
+		min-width: 0px;
+		width: 0px;
+	}
+
+	.header2of3{
+		/*min-width: 400px;*/
+		width: 100%;
+		margin:0 auto;
+	}
+	.headercontent{
+		float: none;
+		margin: 0 auto;
+	}
+
+	.contentborder{
+		min-width: 0px;
+		width: 0px;
+		border: none;
+	}
+	.contentbox{
+		width: 100%;
+	}
+}
+
+@media (max-width: 510px) {
+	.header2of3{
+		max-height: none;
+	}
+	.headercontent{
+		float: none;
+		max-height: none;
+		width: 100%;
+		height: auto;
+	}
+	.headermenu{
+		max-height: none;
+	}
+	.headertab{
+		display: inline-block;
+		float:left;
+		max-height: none;
+		width:100%;
+	}
+}
+
+@media (max-width: 414px) {
+	.headercontainer{
+		overflow: hidden;
+	}
+	#mainname{
+		font-size: 35px;
+	}
+}
+
+

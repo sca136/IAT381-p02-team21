@@ -145,6 +145,13 @@ figcaption{
 	clear:both;
 }
 
+.biggerimage {
+	background-color:rgba(0, 0, 0, 0.1);
+}
+
+.ICANTNAMEITWITHJUSTONENUMBER:hover {
+	background-color:rgba(0, 0, 0, 0.1);
+}
 
 
 

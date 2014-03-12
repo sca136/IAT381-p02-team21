@@ -19,6 +19,10 @@
 	box-sizing: border-box;
 }
 
+*{
+	margin: 0;
+	padding: 0;
+}
 
 /* ---------------------------------------------------------- HEADER */
 
@@ -176,7 +180,7 @@ footer {
 .contentbox{
 	display:block;
 	float:left;
-	height: 100%;
+	min-height: 100%;
 	width: 83.33333%;
 }
 
@@ -192,21 +196,100 @@ footer {
 	margin-left: 40px;
 }
 
-
-.confirmbox{
-	text-align:left;
-	min-height: 30%;
-	max-height: 80%;
-	min-width: 70%;
+.imagebox {
+	float:left;
 	margin-left: 40px;
-	margin-right: 300px;
-	padding: 0px;
+
+}
+
+.overviewtab a{
+	float:left;
+	width:50%;
+	height:30px;
+	background-color: rgba(196, 154, 108, 0.0); ;
+}
+
+.locationtab a{
+	display:inline-block;
+	float:right;
+	width:50%;
+	height:30px;
+	background-color: #BCA99A;
+}
+
+
+
+.detailsbox{
+	display:inline-block;
+	width:50%;
+	min-width: 320px;
+	max-width: 60%;
+	height:300px; 
+	margin-right: 10px;
 	background-color: rgba(196, 154, 108, 0.6);
 }
 
 
 
+/*---------------------------BEARDS PICTURES ---------*/
 
+.beardtypes{
+	float:left;
+	width: 100%;
+	margin-left: 40px;
+}
+
+.beardtile2of4{
+	overflow: hidden;
+	float: left;
+	/*margin-left: 40px;*/
+	width: auto;
+	min-width: 170px;
+}
+
+.beardtitle4of4box{
+	overflow: hidden;
+	width: 50%;
+	margin-left: 40px;
+}
+
+.beardtile4of4{
+	width: auto;
+	overflow: hidden;
+	float:left;
+	margin-left: 0;
+	min-width: 170px;
+}
+
+
+.beardimages1{
+	position: relative;
+	margin-right: 5px;
+	z-index: 0;
+}
+.beardimages2{
+	margin-right: 5px;
+	position: relative;
+}
+
+.beardlabel{
+	position: absolute;
+	width: 170px;
+	text-align: right;
+	background-color: rgba(196,154,108, 0.6);
+	z-index: 100;
+	padding-right: 5px;
+}
+
+.labelgroup{
+	float:left;
+	margin-bottom: 10px;
+}
+
+
+.beardlabel p{
+	margin: 0;
+}
 
 
 
@@ -291,5 +374,11 @@ footer {
 	}
 	#mainname{
 		font-size: 35px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.detailsbox {
+		margin-left: 40px;
 	}
 }

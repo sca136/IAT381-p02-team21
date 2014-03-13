@@ -391,6 +391,19 @@ footer {
 		margin-left: -20px;
 	}
 }
+@media (max-width: 400px){
+	.bulletinimage{
+		max-width: 320px;
+	}
+	.bulletinimage *{
+		max-width: 280px;
+		max-height: 180px;
+	}
+	.labelgroup{
+		max-width: 280px;
+	}
+}
+
 
 .bulletinlabel{
 	opacity: 1.0;

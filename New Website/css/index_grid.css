@@ -220,7 +220,7 @@ footer {
 	float: left;
 	margin-left: 40px;
 	width: auto;
-	min-width: 350px;
+	min-width: 320px;
 }
 
 .beardtitle4of4box{
@@ -234,7 +234,7 @@ footer {
 	overflow: hidden;
 	float:left;
 	margin-left: 0;
-	min-width: 350px;
+	min-width: 320px;
 }
 
 
@@ -389,6 +389,15 @@ footer {
 
 
 
+@media (max-width: 400px){
+	.bulletinimage{
+		max-width: 320px;
+	}
+	.bulletinimage *{
+		max-width: 280px;
+		max-height: 180px;
+	}
+}
 
 
 

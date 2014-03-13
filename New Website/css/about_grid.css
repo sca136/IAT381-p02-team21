@@ -195,8 +195,13 @@ footer {
 /* ---------------------------------------------------------- CONTENT */
 .headerbox{
 	width: 100%;
-	margin-top: 50px;
+	margin-top: -15px;
 	margin-left: 40px;
+	background-color: rgba(196, 154, 108, 0.0);
+}
+
+.detailsbox {
+	background-color: #BCA99A;
 }
 
 

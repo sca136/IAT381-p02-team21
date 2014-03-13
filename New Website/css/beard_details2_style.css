@@ -113,6 +113,12 @@ h1 {
 	font-size: 20px;
 }
 
+.detailstext h1 {
+	font-family: "GeoSansLight";
+	padding-bottom:0;
+	font-size: 30px;
+}
+
 .detailstext h2 {
 	font-family: "GeoSansLight";
 	padding-left: 20px;

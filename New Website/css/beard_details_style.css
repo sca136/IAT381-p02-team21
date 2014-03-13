@@ -104,13 +104,22 @@ h1 {
 
 .detailstext p {
 	font-family: "GeoSansLight";
-	padding-left: 20px;
-	padding-top: 55px;
+	padding-left: 25px;
+	padding-top: 10px;
 	vertical-align: top;
 	text-decoration: none;
 	font-weight: lighter;
 	color: #000000;
 	font-size: 16px;
+}
+
+.detailstext h1 {
+	font-family: "GeoSansLight";
+	padding-bottom:0;
+	padding-top: 30px;
+	padding-left: 20px;
+	margin-bottom:0;
+	font-size: 30px;
 }
 
 .overviewtab a{

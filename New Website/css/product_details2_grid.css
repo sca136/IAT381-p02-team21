@@ -230,7 +230,7 @@ footer {
 	width:50%;
 	min-width: 325px;
 	max-width: 60%;
-	height:300px; 
+	min-height:300px; 
 	margin-right: 10px;
 	background-color: #BCA99A;
 }
@@ -386,5 +386,18 @@ footer {
 @media (max-width: 1000px) {
 	.detailsbox {
 		margin-left: 40px;
+	}
+}
+@media (max-width: 400px) {
+	.detailsbox *{
+		max-width: 200px;
+	}
+	.detailsbox{
+		max-width: 205px;
+		min-width: 205px;
+	}
+	.imagebox *{
+		max-width: 200px;
+		height: 200px;
 	}
 }

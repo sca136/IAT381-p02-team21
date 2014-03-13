@@ -19,6 +19,13 @@ a {
 	color: #000000;
 	font-size: 20px;
 }
+#navToggle{
+	font-family: "GeoSansLight";
+	text-decoration: none;
+	font-weight: lighter;
+	color: #000000;
+	font-size: 20px;
+}
 
 
 nav a, nav a:visited {
@@ -31,7 +38,7 @@ nav a, nav a:visited {
 }
 
 h1 {
-	font-family: "Trajan Pro";
+	font-family: "GeoSansLight";
 	font-weight: lighter;
 	padding : 0px;
 	margin : 0px;
@@ -140,8 +147,13 @@ h1 {
 
 
 
-
-
+#navToggle{
+	display: none;
+	background-color: #EEE3D4;
+	background-color: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	margin-top: 1px;
+}
 
 .active{
 	background-color: #EEE3D4;

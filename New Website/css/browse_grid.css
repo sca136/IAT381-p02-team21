@@ -262,6 +262,7 @@ footer {
 	float:left;
 	width: 100%;
 	padding: 0 5px;
+	padding-top: 0px;
 }
 
 .searchbox input{
@@ -273,10 +274,11 @@ footer {
 	position: absolute;
 	width: 100%;
 	text-align: right;
-	vertical-align: bottom;
-	bottom: 0;
-	padding-bottom: 5px;
+	vertical-align: top;
+	top: 0;
+	padding-top: 5px;
 	padding-right: 15px;
+	font-size: 40px;
 }
 
 

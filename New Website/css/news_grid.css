@@ -19,8 +19,11 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-.beardlabel{
-	transition:  1s;
+.bulletinlabel{
+	transition: ease all 0.5s;
+}
+.bulletinlabel > p{
+	transition: ease all 0.5s;
 }
 
 
@@ -265,6 +268,14 @@ footer {
 	z-index: 100;
 	padding-right: 5px;
 }
+.bulletinlabel{
+	position: absolute;
+	width: 340px;
+	text-align: right;
+	background-color: rgba(196,154,108, 0.6);
+	z-index: 100;
+	padding-right: 5px;
+}
 
 .labelgroup{
 	float:left;
@@ -381,8 +392,20 @@ footer {
 	}
 }
 
-
-.beardlabel:hover
-{
-width:170px;
+.bulletinlabel{
+	opacity: 1.0;
 }
+
+.bulletinimage:hover > .bulletinlabel > p
+{
+	font-size: 25px;
+}
+
+
+
+
+
+
+
+
+

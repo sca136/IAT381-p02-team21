@@ -19,7 +19,19 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+.beardlabel{
+	transition: ease all 0.5s;
+}
+.beardlabel > p{
+	transition: ease all 0.5s;
+}
 
+.bulletinlabel{
+	transition: ease all 0.5s;
+}
+.bulletinlabel > p{
+	transition: ease all 0.5s;
+}
 
 /* ---------------------------------------------------------- HEADER */
 
@@ -374,3 +386,37 @@ footer {
 		margin-left: -20px;
 	}
 }
+
+
+
+
+
+
+
+/* ---------------------------------------------------------- @TRANSITIONS*/
+
+
+.beardlabel{
+	opacity: 1.0;
+}
+
+.labelgroup:hover .beardlabel > p
+{
+	font-size: 25px;
+}
+.bulletinlabel{
+	opacity: 1.0;
+}
+
+.bulletinimage:hover > .bulletinlabel > p
+{
+	font-size: 25px;
+}
+
+
+
+
+
+
+
+

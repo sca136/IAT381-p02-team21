@@ -35,7 +35,7 @@ p{
 }
 
 h1 {
-	font-family: "Trajan Pro";
+	font-family: "GeoSansLight";
 	font-weight: lighter;
 	padding : 0px;
 	margin : 0px;
@@ -136,6 +136,19 @@ h1 {
 	color: rgba(255,255,255, 0.8);
 }
 
+
+#navToggle{
+	font-family: "GeoSansLight";
+	text-decoration: none;
+	font-weight: lighter;
+	color: #000000;
+	font-size: 20px;
+	display: none;
+	background-color: #EEE3D4;
+	background-color: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	margin-top: 1px;
+}
 
 
 

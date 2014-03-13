@@ -94,6 +94,12 @@
 	height: 100%;
 	padding-top : 20px;
 }
+#navToggle{
+	width: 100%;
+	text-align: center;
+	height: 60px;
+	padding-top: 20px;
+}
 
 /* ---------------------------------------------------------- HEADER END */
 

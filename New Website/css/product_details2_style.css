@@ -31,7 +31,7 @@ nav a, nav a:visited {
 }
 
 h1 {
-	font-family: "Trajan Pro";
+	font-family: "GeoSansLight";
 	font-weight: lighter;
 	padding : 0px;
 	margin : 0px;
@@ -168,6 +168,19 @@ label {
 	text-align:center;
 }
 
+
+#navToggle{
+	font-family: "GeoSansLight";
+	text-decoration: none;
+	font-weight: lighter;
+	color: #000000;
+	font-size: 20px;
+	display: none;
+	background-color: #EEE3D4;
+	background-color: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	margin-top: 1px;
+}
 
 
 .instantbuybutton{

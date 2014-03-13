@@ -388,3 +388,17 @@ footer {
 		margin-left: 40px;
 	}
 }
+
+@media (max-width: 400px) {
+	.detailsbox *{
+		max-width: 200px;
+	}
+	.detailsbox{
+		max-width: 205px;
+		min-width: 205px;
+	}
+	.imagebox *{
+		max-width: 200px;
+		height: 180px;
+	}
+}

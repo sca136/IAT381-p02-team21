@@ -1,0 +1,166 @@
+body {
+	/*font-family: Arial, Verdana, sans-serif;*/
+	font-size: 30px;
+	padding : 0px;
+	margin : 0px;
+	border: 0px none;
+}
+
+header {
+}
+
+footer {
+}
+
+a {
+	font-family: "GeoSansLight";
+	text-decoration: none;
+	font-weight: lighter;
+	color: #000000;
+	font-size: 20px;
+}
+
+
+nav a, nav a:visited {
+	/*
+	display: inline-block;
+	background-color: #8A5D3B;
+	color: #000000;
+	text-decoration: none;
+	*/
+}
+
+h1 {
+	font-family: "Trajan Pro";
+	font-weight: lighter;
+	padding : 0px;
+	margin : 0px;
+	color: #FFFFFF;
+	text-align: left;
+	font-size: 40px;
+	max-height: 50%;
+}
+
+
+
+.header1of3{
+	background-color: #9F846D;
+}
+
+.header2of3{
+	background-color: #9F846D;
+}
+
+.header3of3{
+	background-color: #9F846D;
+}
+
+.headercontent{
+	/*background-color: #999999;*/
+}
+
+.headertab{
+	background-color: #EEE3D4;
+	background-color: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	margin-top: 1px;
+}
+
+.lastborder{
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.footer1of2{
+	background-color: #9F846D;
+}
+
+.footer2of2{
+	background-color: #9F846D;
+}
+
+.contentborder{
+	background-color: #EEE3D4;
+}
+
+.contentbox{
+	background-color: #EEE3D4;
+}
+
+.bgcolor{
+	background-color: #EEE3D4;
+}
+
+
+/*  CONTENTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT STYYYYLESSSS */
+
+
+.headerbox p{
+	font-family: "GeoSansLight";
+	text-decoration: none;
+	font-weight: lighter;
+	color: #000000;
+	font-size: 40px;
+}
+
+
+.detailstext p {
+	font-family: "GeoSansLight";
+	padding-left: 30px;
+	padding-top: 5px;
+	vertical-align: top;
+	text-decoration: none;
+	font-weight: lighter;
+	color: #000000;
+	font-size: 20px;
+}
+
+.detailstext h2 {
+	font-family: "GeoSansLight";
+	padding-left: 20px;
+	padding-top: 35px;
+	vertical-align: top;
+	text-decoration: none;
+	font-weight: lighter;
+	color: #FFFFFF;
+	font-size: 35px;
+}
+
+.overviewtab a{
+	font-family: "GeoSansLight";
+	color: #000000;
+	font-size: 25px;
+	text-align: center;
+}
+
+.locationtab a{
+	font-family: "GeoSansLight";
+	color: #000000;
+	font-size: 25px;
+	text-align: center;
+}
+
+
+.beardlabel{
+	font-family: "GeoSansLight";
+	color: rgba( 255,255,255, 0.8);
+	font-weight: lighter;
+}
+
+
+.imagebox{
+	background-color: #9E8A75;
+}
+
+.instantbuy {
+	padding-top:60px;
+	text-align:center;
+}
+
+.instantbuybutton{
+
+}
+
+.labelgroup {
+	margin-right: 5px;
+	background-color: #9E8A75;
+}
